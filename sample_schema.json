@@ -1,0 +1,8 @@
+{
+  "columns": [
+    {"name": "id", "type": "int", "nullable": false},
+    {"name": "email", "type": "string", "nullable": false},
+    {"name": "age", "type": "int", "min": 18, "max": 60},
+    {"name": "salary", "type": "float", "min": 1000}
+  ]
+}
